@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/health-care-project/static/css/main.7acaea2f.css",
-    "main.js": "/health-care-project/static/js/main.598dd180.js",
+    "main.js": "/health-care-project/static/js/main.c2b21584.js",
     "index.html": "/health-care-project/index.html",
     "main.7acaea2f.css.map": "/health-care-project/static/css/main.7acaea2f.css.map",
-    "main.598dd180.js.map": "/health-care-project/static/js/main.598dd180.js.map"
+    "main.c2b21584.js.map": "/health-care-project/static/js/main.c2b21584.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.598dd180.js"
+    "static/js/main.c2b21584.js"
   ]
 }
