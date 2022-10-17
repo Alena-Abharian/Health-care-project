@@ -1,23 +1,37 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 
 export default function useToggleModal() {
-  const navigate = useNavigate();
-
   const [isOpen, setIsOpen] = useState(false);
+  const [isFooterOpen, setIsFooterOpen] = useState(false);
 
-  const openModal = () => setIsOpen(true);
-
-  const closeModal = (path = '/') => {
-    setIsOpen(false);
-    navigate(path);
+  const openModal = () => {
+    setIsOpen(true);
   };
 
-  const toggleModal = () => setIsOpen(isOpen => !isOpen);
+  const openFooterModal = () => {
+    setIsFooterOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+  const closeFooterModal = () => {
+    setIsFooterOpen(false);
+  };
+
+  const toggleModal = () => {
+    setIsOpen(isOpen => !isOpen);
+  };
+  const toggleFooterModal = () => {
+    setIsFooterOpen(isFooterOpen => !isFooterOpen);
+  };
 
   const handleKeyDown = e => {
     if (e.code === 'Escape') {
       setIsOpen(() => {
+        closeModal();
+      });
+      setIsFooterOpen(() => {
         closeModal();
       });
     }
@@ -28,14 +42,21 @@ export default function useToggleModal() {
       setIsOpen(() => {
         closeModal();
       });
+      setIsFooterOpen(() => {
+        closeModal();
+      });
     }
   };
 
   return {
+    isFooterOpen,
     isOpen,
     openModal,
+    openFooterModal,
     closeModal,
+    closeFooterModal,
     toggleModal,
+    toggleFooterModal,
     handleKeyDown,
     handleBackdropClick,
   };

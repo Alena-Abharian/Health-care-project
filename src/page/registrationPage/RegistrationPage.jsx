@@ -1,8 +1,16 @@
 import React from 'react';
+import RegistrationForm from '../../components/registrationForm/RegistrationForm';
+import { Container } from '../../components/common/container/Container';
+import PictureFruit from '../../components/common/picture/PictureFruit';
 
-function RegistrationPage(props) {
+function RegistrationPage() {
   return (
-    <div>RegistrationPage</div>
+    <>
+      <Container>
+        <RegistrationForm />
+      </Container>
+      <PictureFruit />
+    </>
   );
 }
 
