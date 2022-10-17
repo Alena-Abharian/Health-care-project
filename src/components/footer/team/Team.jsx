@@ -14,8 +14,8 @@ import Andrew from 'assets/images/team/Andrew.jpeg';
 import Dmitry from 'assets/images/team/DmitrySalenko.png';
 import Maksym from 'assets/images/team/MaksymHolovachuk.jpeg';
 import Mitya from 'assets/images/team/MityaKupriyanov.png';
-import Shamrai from 'assets/images/team/Shamrai.jpeg';
-import hunger from 'assets/images/notFound/hunger-404.webp';
+import ShamraiV from 'assets/images/team/ShamraiV.jpeg';
+import Max from 'assets/images/team/me1.jpg';
 
 const Team = () => {
   return (
@@ -63,7 +63,7 @@ const Team = () => {
               rel="noreferrer nofollow noopener"
             >
               <Box style={{ position: 'relative', overflow: 'hidden' }}>
-                <TeamPhotoStyled src={hunger} alt="Team-member photo" />
+                <TeamPhotoStyled src={Max} alt="Team-member photo" />
                 <Overlay>
                   <OverlayText>
                     Max Kryzhanovskyi, <br /> Developer
@@ -95,9 +95,9 @@ const Team = () => {
               rel="noreferrer nofollow noopener"
             >
               <Box style={{ position: 'relative', overflow: 'hidden' }}>
-                <TeamPhotoStyled src={Shamrai} alt="Team-member photo" />
+                <TeamPhotoStyled src={ShamraiV} alt="Team-member photo" />
                 <Overlay>
-                  <OverlayText style={{ color: 'white' }}>
+                  <OverlayText>
                     Volodymyr Shamrai, <br /> Developer
                   </OverlayText>
                 </Overlay>
@@ -113,7 +113,7 @@ const Team = () => {
               <Box style={{ position: 'relative', overflow: 'hidden' }}>
                 <TeamPhotoStyled src={Andrew} alt="Team-member photo" />
                 <Overlay>
-                  <OverlayText style={{ color: 'white' }}>
+                  <OverlayText>
                     Andrew, <br /> Developer
                   </OverlayText>
                 </Overlay>
