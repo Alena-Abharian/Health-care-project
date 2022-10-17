@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/health-care-project/static/css/main.cdebdb7d.css",
-    "main.js": "/health-care-project/static/js/main.c82d8036.js",
+    "main.js": "/health-care-project/static/js/main.d8cfd189.js",
     "static/js/844.ec14aa13.chunk.js": "/health-care-project/static/js/844.ec14aa13.chunk.js",
     "static/js/439.655f6b56.chunk.js": "/health-care-project/static/js/439.655f6b56.chunk.js",
     "static/js/236.8527465d.chunk.js": "/health-care-project/static/js/236.8527465d.chunk.js",
@@ -14,11 +14,11 @@
     "static/media/primaryImgTab.png": "/health-care-project/static/media/primaryImgTab.1c423c61002d6bb936cc.png",
     "static/media/flat-lay-404.jpeg": "/health-care-project/static/media/flat-lay-404.4ba14ba91aae619317b3.jpeg",
     "static/media/DmitrySalenko.png": "/health-care-project/static/media/DmitrySalenko.1387fc1c5139c041e5e3.png",
-    "static/media/hunger-404.webp": "/health-care-project/static/media/hunger-404.79c2d18f72f7dd1ddf5d.webp",
+    "static/media/ShamraiV.jpeg": "/health-care-project/static/media/ShamraiV.ba32936fb4bbbb7aaa00.jpeg",
     "static/media/MityaKupriyanov.png": "/health-care-project/static/media/MityaKupriyanov.077618c194385745fde9.png",
+    "static/media/me1.jpg": "/health-care-project/static/media/me1.cb9fd19f065e440c0c50.jpg",
     "static/media/summaryImgDesk.png": "/health-care-project/static/media/summaryImgDesk.032a3bee9ac1dc9057be.png",
     "static/media/MaksymHolovachuk.jpeg": "/health-care-project/static/media/MaksymHolovachuk.191912b99ffc7daa466a.jpeg",
-    "static/media/Shamrai.jpeg": "/health-care-project/static/media/Shamrai.a980da73a3b9bcc8f83a.jpeg",
     "static/media/Andrew.jpeg": "/health-care-project/static/media/Andrew.bcec3d0a82c9ee75c2d2.jpeg",
     "static/media/Alena Abharian.jpeg": "/health-care-project/static/media/Alena Abharian.c7f5bbe03be385651bb2.jpeg",
     "static/media/summaryImgTadl.png": "/health-care-project/static/media/summaryImgTadl.d09141402614a67df357.png",
@@ -26,7 +26,7 @@
     "static/media/calendar-svg.svg": "/health-care-project/static/media/calendar-svg.ba503d1014b2f1e6ae15c0d1c126f371.svg",
     "static/media/addProduct.svg": "/health-care-project/static/media/addProduct.1af623af381df34865932cccc30d9826.svg",
     "main.cdebdb7d.css.map": "/health-care-project/static/css/main.cdebdb7d.css.map",
-    "main.c82d8036.js.map": "/health-care-project/static/js/main.c82d8036.js.map",
+    "main.d8cfd189.js.map": "/health-care-project/static/js/main.d8cfd189.js.map",
     "844.ec14aa13.chunk.js.map": "/health-care-project/static/js/844.ec14aa13.chunk.js.map",
     "439.655f6b56.chunk.js.map": "/health-care-project/static/js/439.655f6b56.chunk.js.map",
     "236.8527465d.chunk.js.map": "/health-care-project/static/js/236.8527465d.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.cdebdb7d.css",
-    "static/js/main.c82d8036.js"
+    "static/js/main.d8cfd189.js"
   ]
 }
